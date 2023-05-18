@@ -13,11 +13,11 @@
 
 |   | Componentes | 
 |---|----------|
-| 1 | Tamanho do governo        | 
-| 2 | Sistema jurídico e direitos de propriedade        | 
-| 3 | Sound money        |                              |
-| 4 | Liberdade de comércio internacional        |
-| 5 | Regulamentos        | 
+| 1 | Government Size (Tamanho do governo)        | 
+| 2 | Legal System & Property Rights (Sistema jurídico e direitos de propriedade)        | 
+| 3 | Sound money (Moeda sólida)        |                              |
+| 4 | Freedom to trade internationally (Liberdade de comércio internacional)        |
+| 5 | Regulation (Regulamentos)        | 
 
 
 # Coleta de dados
