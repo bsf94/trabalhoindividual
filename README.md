@@ -20,10 +20,19 @@
 | 5 | Regulamentos        | 
 
 
-
-
-
 # Coleta de dados
 
 - Índice EFW: Os dados estão disponíveis [no site do Instituto Frasier](https://www.fraserinstitute.org/economic-freedom/dataset?geozone=world&page=dataset&min-year=2&max-year=0&filter=0), responsável pelo lançamento de um relatório anual que mede o nível de liberdade econômica em diversos países do mundo. 
 - PIB: Os dados estão disponíveis [no site do World Bank](https://data.worldbank.org/).
+
+# Dicionário de dados
+
+| Variável | Descrição                                              | Tipo | Observações                                                                                                          |
+|---------------|----------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------|
+| GDP           | Gross Domestic Product (GDP)                             | Numeric   | GDP (PIB) mede o valor total de bens e serviços produzidos dentro de um país durante um período. |
+| EFW           | Economic Freedom of the World Index (EFW)                             | Numeric   | EFW is a measure of the degree of economic freedom within a country.                                             |
+| GovSize       | Government Size                                     | Numeric   | Mede o grau de intervenção governamental na economia, incluindo gastos governamentais, tributação e o tamanho das empresas estatais.                                 |
+| LegalSystem   | Legal System and Property Rights                                       | Numeric   | Medee a eficiência  do estado de direito, a independência do judiciário, a segurança dos direitos de propriedade e a eficácia da execução de contratos.                       |
+| TradeFreedom  | Freedom to trade Internationally                                     | Numeric   | Refere-se ao grau de abertura e liberdade que um país tem para realizar o comércio internacional, incluindo a ausência de tarifas, barreiras e restrições nas importações e exportações, bem como a liberdade de participar de trocas internacionais sem interferência governamental excessiva.
+| SoundMoney    | Sound Money                                        | Numeric   | Refere-se à estabilidade e confiabilidade do sistema monetário de um país, incluindo baixas taxas de inflação, ausência de controles de preços e a capacidade dos indivíduos de usar e manter sua forma preferida de dinheiro sem restrições governamentais.
+| Regulation    | Regulation                                         | Numeric   | Refere-se ao grau de intervenção e regulação governamental na economia, incluindo regulamentações comerciais, restrições no mercado de trabalho e burocracia.                       |
