@@ -36,3 +36,9 @@
 | TradeFreedom  | Freedom to trade Internationally                                     | Numeric   | Refere-se ao grau de abertura e liberdade que um país tem para realizar o comércio internacional, incluindo a ausência de tarifas, barreiras e restrições nas importações e exportações, bem como a liberdade de participar de trocas internacionais sem interferência governamental excessiva.
 | SoundMoney    | Sound Money                                        | Numeric   | Refere-se à estabilidade e confiabilidade do sistema monetário de um país, incluindo baixas taxas de inflação, ausência de controles de preços e a capacidade dos indivíduos de usar e manter sua forma preferida de dinheiro sem restrições governamentais.
 | Regulation    | Regulation                                         | Numeric   | Refere-se ao grau de intervenção e regulação governamental na economia, incluindo regulamentações comerciais, restrições no mercado de trabalho e burocracia.                       |
+
+
+# REFERÊNCIAS
+
+GWARTNEY, J.; LAWSON, R. The concept and measurement of economic freedom. European Journal of Political Economy, v. 19, n. 3, p. 405-430, 2003. Disponível em https://doi.org/10.1016/S0176-2680(03)00007-7 Acesso em: 18 maio 2023.
+
