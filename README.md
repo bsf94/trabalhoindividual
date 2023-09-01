@@ -1,6 +1,6 @@
 # Projeto individual: Análise da relação entre liberdade econômica e o crescimento do PIB no Brasil.
-- **OBJETIVO:** O objetivo deste projeto é analisar a relação entre o crescimento do PIB no Brasil e o nível de liberdade econômica, conforme medido pelo Índice Economic Freedom of the World (EFW). Além disso, busca-se identificar quais subcomponentes desse índice impactam mais significativamente o nível geral de liberdade econômica no Brasil, bem como identificar quais subcomponentes apresentam maior correlação com as variações no crescimento do PIB. O projeto também visa desenvolver um modelo preditivo para determinar qual subcomponente precisa ser alterado para permitir um maior crescimento do PIB. 
-- **RELEVÂNCIA:** Através dessa análise, espera-se identificar os subcomponentes específicos do Índice EFW que têm maior impacto no nível geral de liberdade econômica no país e compreender quais subcomponentes estão mais correlacionados com as variações no crescimento do PIB. Essas informações podem ser úteis para o entendimento de fatores relacionados à políticas públicas que visem melhorar a liberdade econômica e impulsionar o crescimento econômico sustentável no Brasil. Ao fornecer insights sobre quais aspectos precisam ser priorizados e quais ações podem ser tomadas, espera-se entender, a partir do índice EFW, quais fatores contribuem para o "atraso" econômico do Brasil.
+- **OBJETIVO:** O objetivo deste projeto é analisar a relação entre o crescimento do PIB no Brasil e o nível de liberdade econômica, conforme medido pelo Índice Economic Freedom of the World (EFW).  
+- **RELEVÂNCIA:** Através dessa análise, espera-se identificarse se há relação entre o nível de liberdade econômica no país e variações no crescimento do PIB. Essas informações podem ser úteis para o entendimento de fatores relacionados à políticas públicas que visem melhorar a liberdade econômica e impulsionar o crescimento econômico sustentável no Brasil, caso esteja relação seja encontrada.
 - **CONTEXTO:** Este projeto tem como foco o Brasil e busca analisar a relação entre o crescimento do PIB e a liberdade econômica no país. Para isso, serão utilizados dados entre o período de 2000 a 2020. Esse intervalo de tempo permitirá uma análise ampla e aprofundada das tendências e correlações ao longo das últimas duas décadas. 
 - **LIMITAÇÕES:** Este projeto apresenta algumas limitações importantes a serem consideradas. Primeiramente, é fundamental reconhecer que correlação não implica causalidade. Mesmo que seja possível identificar correlações entre os indicadores de liberdade econômica e o crescimento do PIB, estabelecer uma relação causal é mais complexo. A liberdade econômica é apenas um dos muitos fatores que influenciam o crescimento do PIB, e há muitas outras variáveis que impactam o PIB de um país, como estabilidade política e social, investimento em infrastrutura, desenvolvimento de capital humano, nível de educação da população, condições macroeconômicas nacionais e globais, fatores demográficos, etc. Esse projeto irá aborar apenas um aspecto geral - o nível de liberdade econômica - e cinco subcomponentes: tamanho do governo, sistema jurídico e direito de propriedade, sound money, liberdade de comércio internacional e regulamentos.
 
@@ -23,8 +23,9 @@
 # Coleta de dados
 
 - Índice EFW: Os dados estão disponíveis [no site do Instituto Frasier](https://www.fraserinstitute.org/economic-freedom/dataset?geozone=world&page=dataset&min-year=2&max-year=0&filter=0), responsável pelo lançamento de um relatório anual que mede o nível de liberdade econômica em diversos países do mundo. 
-- PIB: Os dados estão disponíveis [no site do World Bank](https://data.worldbank.org/).
-
+- PIB, Unemployment, PolStab: Os dados estão disponíveis [no site do World Bank](https://data.worldbank.org/).
+- CPI: Os dados estão disponível [no site transparency.org](https://www.transparency.org/en/cpi/2021)
+  
 # Dicionário de dados
 
 | Variável | Descrição                                              | Tipo | Observações                                                                                                          |
@@ -36,7 +37,10 @@
 | TradeFreedom  | Freedom to trade Internationally                                     | Numeric   | Refere-se ao grau de abertura e liberdade que um país tem para realizar o comércio internacional, incluindo a ausência de tarifas, barreiras e restrições nas importações e exportações, bem como a liberdade de participar de trocas internacionais sem interferência governamental excessiva.
 | SoundMoney    | Sound Money                                        | Numeric   | Refere-se à estabilidade e confiabilidade do sistema monetário de um país, incluindo baixas taxas de inflação, ausência de controles de preços e a capacidade dos indivíduos de usar e manter sua forma preferida de dinheiro sem restrições governamentais.
 | Regulation    | Regulation                                         | Numeric   | Refere-se ao grau de intervenção e regulação governamental na economia, incluindo regulamentações comerciais, restrições no mercado de trabalho e burocracia.                       |
-
+| CPI    | Corruption Perception Index                                         | Numeric   | Refere-se ao de corrupção no país, em uma escala de 1-100.                       |
+| PolStab    | Political Stability                                         | Numeric   | Refere-se a estabilidade política no país.                       |
+| Unemployment    | Desemprego                                         | Numeric   | Refere-se ao percentual da força de trabalho que está desempregada.                       |
+| PIB/capita    | PIB per capita                                         | Numeric   | Refere-se ao produto interno bruto per capita.                       |
 
 # REFERÊNCIAS
 
